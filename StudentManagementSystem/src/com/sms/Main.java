@@ -1,15 +1,3 @@
-package com.sms;
-
-import com.sms.model.*;
-import com.sms.service.*;
-import com.sms.util.ConsoleUtil;
-
-import java.util.List;
-import java.util.Optional;
-import java.util.Scanner;
-
-public class Main {
-    private static final Scanner sc = new Scanner(System.in);
 
     private static final AuthService authService = new AuthService();
     private static final StudentService studentService = new StudentService();
